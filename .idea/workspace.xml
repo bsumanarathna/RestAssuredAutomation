@@ -34,16 +34,66 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.DDtestCases.executor": "Run",
+    "TestNG.DDtestCases.testPostUser.executor": "Run",
     "TestNG.usertestcases.TestCreateUser.executor": "Run",
     "TestNG.usertestcases.TestReadUser (1).executor": "Debug",
     "TestNG.usertestcases.TestReadUser.executor": "Run",
     "TestNG.usertestcases.TestUpdateUSer.executor": "Debug",
     "TestNG.usertestcases.executor": "Run",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Bhagya/Bhagya Learnings/restassured/restassuredProject1/testdata",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.usertestcases">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Bhagya\Bhagya Learnings\restassured\restassuredProject1\testdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DDtestCases">
+    <configuration name="DDtestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassuredProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.DDtestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDtestCases.testPostUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassuredProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.DDtestCases" />
+      <option name="METHOD_NAME" value="testPostUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="usertestcases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restassuredProject1" />
       <extension name="coverage">
@@ -99,6 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DDtestCases" />
+        <item itemvalue="TestNG.DDtestCases.testPostUser" />
         <item itemvalue="TestNG.usertestcases" />
         <item itemvalue="TestNG.usertestcases.TestReadUser" />
         <item itemvalue="TestNG.usertestcases.TestCreateUser" />
@@ -114,6 +166,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706282233120</updated>
     </task>
+    <task id="LOCAL-00001" summary="first git commit 11.51">
+      <option name="closed" value="true" />
+      <created>1706336525307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706336525307</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first git commit 11.51" />
+    <option name="LAST_COMMIT_MESSAGE" value="first git commit 11.51" />
   </component>
 </project>

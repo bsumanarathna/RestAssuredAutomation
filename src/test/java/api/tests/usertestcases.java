@@ -53,6 +53,9 @@ public class usertestcases {
     Response response = userendpoints.Updateuser(this.userPayLoad.getUsername(), userPayLoad);
     response.then().log().body();
     Assert.assertEquals(response.getStatusCode(),200);
+    Response responseafterupdate  = userendpoints.ReadUser(this.userPayLoad.getUsername());
+    responseafterupdate.then().log().all();
+
 }
 
     @Test(priority = 4)
@@ -60,6 +63,7 @@ public class usertestcases {
         Response response = userendpoints.Deleteuser(this.userPayLoad.getUsername());
         response.then().log().all();
         Assert.assertEquals(response.getStatusCode(),200);
+
     }
 
 }
